@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     async function fetchingdata() {
       try {
-        const res = await axios.get(`http://localhost:3000/song?mood=${mood}`);
+        const res = await axios.get(`https://moody-player-backend-delta.vercel.app/song?mood=${mood}`);
         setsongs(res.data.song);
       } catch (error) {
         console.log(error);
