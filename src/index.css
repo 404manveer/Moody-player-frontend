@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+*{
+    
+    box-sizing: border-box;
+
+}
+
+:root{
+  --prim:rgb(161, 129, 213);
+  --sec:rgb(213, 206, 129);
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}  
