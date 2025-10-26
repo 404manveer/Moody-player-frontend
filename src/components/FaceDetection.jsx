@@ -51,6 +51,7 @@ export default function FaceDetection({ setmood }) {
       faceapi.draw.drawDetections(canvas, resized);
       faceapi.draw.drawFaceLandmarks(canvas, resized);
       faceapi.draw.drawFaceExpressions(canvas, resized);
+      // df
 
       if (detections.length > 0) {
         const expressions = detections[0].expressions;
