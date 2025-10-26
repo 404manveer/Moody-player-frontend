@@ -16,6 +16,7 @@ function App() {
         const res = await axios.get(`https://moody-player-backend-delta.vercel.app/song?mood=${mood}`);
         setsongs(res.data.song);
       } catch (error) {
+        
         console.log(error);
       }
     }
